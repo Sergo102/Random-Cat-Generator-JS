@@ -1,0 +1,30 @@
+@media only screen and (min-width: 768px){
+  img{
+    min-width: 75%;
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width: 2560px){
+  .container{
+    width: 80%;
+    height: 800px;
+    img{
+      min-width: 85%;
+      max-width: 90%;
+      height: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 425px){
+  .container{
+    width: 80%;
+    height: 400px;
+    img{
+      min-width: 85%;
+      max-width: 90%;
+      height: 100%;
+    }
+  }
+}
